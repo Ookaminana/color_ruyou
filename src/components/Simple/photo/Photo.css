@@ -1,0 +1,8 @@
+.photo-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.lable{
+    margin: 0px 0 5px 10px;
+  }

@@ -1,7 +1,7 @@
 
 import './App.css';
-import Menu, {} from './components/Simple/menu/Menu';
-import Form from './components/form/Form'
+import Menu from './components/Menu/Menu';
+import Form from './components/Form/Form'
 
 function App() {
   return (

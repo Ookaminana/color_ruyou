@@ -1,9 +1,9 @@
 import './Button.css';
 
-function Button() {
+function Button(props) {
 
     return (
-        <button className='save'>Сохранить</button>
+        <button className={props.class}>{props.text}</button>
     )
 }
 
