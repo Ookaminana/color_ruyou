@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Menu, {} from './components/menu/Menu';
+import Menu, {} from './components/Simple/menu/Menu';
 import Form from './components/form/Form'
 
 function App() {

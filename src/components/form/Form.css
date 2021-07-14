@@ -3,26 +3,3 @@
     flex-direction: column;
     padding: 25px;
 }
-
-.input{
-    height: 36px;
-    width: 343px;
-    left: 94px;
-    background: rgba(118, 118, 128, 0.24);
-    border-radius: 10px;
-    border: 0px;
-    color: #fff;
-}
-
-.lable{
-    margin: 20px 0 5px 10px;
-}
-
-.response{
-    background: rgba(118, 118, 128, 0.24);
-    border-radius: 10px;
-    border: 0px;
-    height: 120px;
-    width: 343px;
-    color:#fff;
-}

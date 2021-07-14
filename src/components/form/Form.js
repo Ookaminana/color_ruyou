@@ -1,26 +1,20 @@
 
-import Button from '../button/Button';
+import Button from '../Simple/button/Button';
+import Input from '../Simple/input/Input'
+import Photo from '../Simple/photo/Photo';
+import Response from '../Simple/response/Response';
 
 import './Form.css';
 
 function Form() {
     return (
         <div className='form'>
-            <label className='lable'>Имя</label>
-            <input type='text' className='input' value='Лев'></input>
-            <label className='lable'>Фамилия</label>
-            <input type='text' className='input'></input>
-            <label className='lable'>Отчество</label>
-            <input type='text' className='input'></input>
-            <label className='lable'>Фото</label>
-            <div className='photo'>
-                <img src='../../img/pict.png'></img>  
-            </div>
+            <Input text='Имя' />
+            <Input text='Фамилия' />
+            <Input text='Отчество' /> 
+            <Photo text='Фото'/>           
             <Button />
-            <label className='lable'>Response</label>
-            <div className='response'></div>
-            
-            {/* <input type='text' className='bigmemo'></input> */}
+            <Response text='Response'/> 
         </div>
         
     )
