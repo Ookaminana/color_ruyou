@@ -1,6 +1,6 @@
 .main{
   display: flex;
-  justify-content: center;
+  /* justify-content: start; */
   align-items: center;
 }
 
@@ -11,11 +11,11 @@
   /* left: 43px; */
   /* top: 43px; */
   border-radius: 28px;
-  color:#fff;
+  color:rgba(235, 235, 245, 0.6);
   /* padding: 50px; */
 }
 
 .box{
-  margin: 20px 0 0 0;
+  margin: 12px 0 0 0;
 }
 

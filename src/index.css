@@ -2,9 +2,30 @@ body {
   margin: 0;
   background-color: #1F2223;
   border-radius: 30px;
+  font-family: 'Gotham Pro Regular';
+  min-height:100vh;
+}
+
+#root{
+  min-height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Gotham Pro Regular';
+  src: url('./fonts/GothamPro.eot');
+  src: url('./fonts/GothamPro.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/GothamPro.woff') format('woff'),
+  url('./fonts/GothamPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+
