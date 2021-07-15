@@ -7,11 +7,15 @@ import Response from '../Simple/Response/Response';
 import './Form.css';
 
 function Form(props) {
+    const state = {
+        lables: ['Имя','Фамилия','Отчество']
+    }   
+     
     return (
         <div className='form'>
-            <Input text='Имя' />
-            <Input text='Фамилия' />
-            <Input text='Отчество' /> 
+            {state.lables.map((elem) =>{
+                return(<Input text={elem} />)
+            })}            
             <Photo text='Фото' url={props.url_photo}/>           
             <Button text='Сохранить' class='save'/>
             <Response text='Response'/> 
