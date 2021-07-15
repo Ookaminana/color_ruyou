@@ -1,0 +1,7 @@
+.palette-box{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    width: 320px;
+    flex-wrap: wrap;
+}
