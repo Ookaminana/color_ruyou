@@ -4,7 +4,7 @@ function Response(props) {
 
     return (
         <div className='response-box'>
-            <label className='lable'>Response</label>
+            <label className='lable'>{props.text}</label>
             <div className='response'></div>              
         </div>
         
