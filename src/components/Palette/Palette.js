@@ -10,7 +10,7 @@ function Palette(props) {
                     console.log(element);
                 return(<Color color={element}/> )                 
                 })} 
-                <Button text='Добавить цвет' class='save'/>                                  
+                <Button text='Добавить цвет' class='blue'/>                                  
             </div>                       
         )
     

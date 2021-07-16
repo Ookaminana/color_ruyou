@@ -10,14 +10,14 @@ function Form(props) {
     const state = {
         lables: ['Имя','Фамилия','Отчество']
     }   
-     
+
     return (
         <div className='form'>
             {state.lables.map((elem) =>{
                 return(<Input text={elem} />)
             })}            
             <Photo text='Фото' url={props.url_photo}/>           
-            <Button text='Сохранить' class='save'/>
+            <Button text='Сохранить' class='blue'/>
             <Response text='Response'/> 
         </div>
         
